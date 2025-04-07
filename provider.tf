@@ -39,7 +39,7 @@ provider "kubernetes" {
 }
 
 # Generate a Random Suffix for Unique Naming
-resource "random_string" "suffix" {
-  length  = 5
-  special = false
-}
+#resource "random_string" "suffix" {
+  #length  = 5
+  #special = false
+#}
